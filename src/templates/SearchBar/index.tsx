@@ -11,6 +11,7 @@ export default function SearchBar() {
           borderRadius: '8px',
           paddingX: 2.5,
           paddingY: 1,
+          minWidth: 240,
         },
         '& input': { fontSize: 12, padding: 0 },
         minWidth: 'max-content',
