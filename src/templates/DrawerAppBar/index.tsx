@@ -6,9 +6,7 @@ import { useState } from 'react';
 
 import AppBar from '@mui/material/AppBar';
 import { AccountCircle, Close, Menu } from '@mui/icons-material';
-
 import Box from '@mui/material/Box';
-
 import CssBaseline from '@mui/material/CssBaseline';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
@@ -67,8 +65,9 @@ export default function DrawerAppBar() {
           sx={{
             display: 'grid',
             gap: 2,
-            gridTemplateColumns: 'repeat(3, 1fr)',
+            gridTemplateColumns: { xs: '3rem 1fr 3rem', md: 'repeat(3, 1fr)' },
             justifyContent: 'space-between',
+            paddingLeft: { md: 0 },
           }}
         >
           <IconButton
