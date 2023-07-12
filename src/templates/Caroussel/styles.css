@@ -1,0 +1,23 @@
+.slide {
+  border-radius: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 475px;
+  justify-content: flex-end;
+  margin: 20px;
+  min-width: 280px;
+  overflow: hidden;
+  padding: 20px;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.slide .content {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 85.42%);
+  border-radius: 0px 0px 20px 20px;
+  color: #fff;
+}
+
+.slide h1 {
+  font-weight: 700;
+}
