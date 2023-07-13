@@ -58,7 +58,7 @@ export default function DrawerAppBar() {
   );
 
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ display: 'flex', marginBottom: { xs: '8rem', sm: '9rem' } }}>
       <CssBaseline />
       <AppBar component="nav" sx={{ backgroundColor: '#32174D' }}>
         <Toolbar
