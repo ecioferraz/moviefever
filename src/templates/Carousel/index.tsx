@@ -2,7 +2,7 @@
 
 import BRC from 'better-react-carousel';
 import './styles.css';
-import { movies } from '../../assets/movies/movies';
+import { movies } from '../../assets/movies';
 import Image from 'next/image';
 
 const myDot = ({ isActive }: { isActive: boolean }) => (
