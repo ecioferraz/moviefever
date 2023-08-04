@@ -1,5 +1,5 @@
 import Location from '@/components/Location';
-import Carousel from '@/templates/Caroussel';
+import Carousel from '@/templates/Carousel';
 import SearchBar from '@/templates/SearchBar';
 
 export default function Home() {
