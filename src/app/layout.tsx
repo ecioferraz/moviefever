@@ -1,7 +1,7 @@
-import DrawerAppBar from '@/templates/DrawerAppBar';
-import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import DrawerAppBar from '@/templates/DrawerAppBar';
+import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
