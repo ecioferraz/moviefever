@@ -8,26 +8,10 @@ export const movies = [
   {
     synopsis:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloremque quas sequi.',
-    title: 'Próxima Parada',
+    title: 'Falso Deus',
     pg: '',
-    landscapeImg: 'proxima-parada-landscape.png',
-    posterImg: nextStationPoster,
-  },
-  {
-    synopsis:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloremque quas sequi.',
-    title: 'Vermelho',
-    pg: '',
-    landscapeImg: 'vermelho-landscape.png',
-    posterImg: redPoster,
-  },
-  {
-    synopsis:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloremque quas sequi.',
-    title: 'Máscaras',
-    pg: '',
-    landscapeImg: 'mascaras-landscape.png',
-    posterImg: unmaskedPoster,
+    landscapeImg: 'falso-deus-landscape.png',
+    posterImg: 'falso-deus-poster.png',
   },
   {
     synopsis:
@@ -35,14 +19,30 @@ export const movies = [
     title: 'Garota Perdida',
     pg: '',
     landscapeImg: 'garota-perdida-landscape.png',
-    posterImg: lostGirlPoster,
+    posterImg: 'garota-perdida-landscape.png',
   },
   {
     synopsis:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloremque quas sequi.',
-    title: 'Falso Deus',
+    title: 'Próxima Parada',
     pg: '',
-    landscapeImg: 'falso-deus-landscape.png',
-    posterImg: falseGodPoster,
+    landscapeImg: 'proxima-parada-landscape.png',
+    posterImg: 'proxima-parada-poster.png',
+  },
+  {
+    synopsis:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloremque quas sequi.',
+    title: 'Vermelho',
+    pg: '',
+    landscapeImg: 'vermelho-landscape.png',
+    posterImg: 'vermelho-poster.png',
+  },
+  {
+    synopsis:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloremque quas sequi.',
+    title: 'Máscaras',
+    pg: '',
+    landscapeImg: 'mascaras-landscape.png',
+    posterImg: 'mascaras-poster.png',
   },
 ];
