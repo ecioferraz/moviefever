@@ -1,3 +1,4 @@
 .slick-slide:not(.slick-current) {
   scale: 0.97;
+  transition: all ease-in-out 1s;
 }

@@ -12,7 +12,7 @@ export default function SlickCarousel() {
     accessibility: true,
     adaptiveHeight: true,
     arrows: false,
-    // autoplay: true,
+    autoplay: true,
     centerMode: true,
     dots: true,
     draggable: true,
@@ -27,30 +27,21 @@ export default function SlickCarousel() {
     <Slider {...settings} className="w-screen max-w-full">
       {movies.map(({ landscapeImg, synopsis, title }) => {
         return (
-          <div
-            key={title}
-            className={`
-            aspect-square
-            max-h-[475px]
-            w-screen
-            px-4
-            lg:px-0
-          `}
-          >
+          <div key={title} className={`px-4 lg:px-0`}>
             <div
-              className="flex h-full items-end rounded-3xl bg-cover bg-center"
+              className="flex aspect-square h-full items-end rounded-3xl bg-cover bg-center sm:aspect-auto sm:h-[475px]"
               style={{ backgroundImage: `url(/${landscapeImg})` }}
             >
               <div
-                className="w-full rounded-b-3xl p-5"
+                className="w-full rounded-b-3xl p-6"
                 style={{
                   background:
                     'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 85.42%)',
                 }}
               >
                 <div className="text-[rgb(var(--background-rgb))]">
-                  <h1 className="truncate text-3xl">{title}</h1>
-                  <span className="line-clamp-2 text-xl">{synopsis}</span>
+                  <h1 className="truncate text-base font-bold">{title}</h1>
+                  <span className="line-clamp-2 text-xs">{synopsis}</span>
                 </div>
               </div>
             </div>
